@@ -1,0 +1,165 @@
+body{
+    margin-left:60px;
+    margin-right:60px;
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*  -------- Color box div -----------*/
+
+.colortitle{
+    text-align: center;
+    font-size: 29px;
+}
+
+div.color{
+    border: 2px solid black;
+    overflow:scroll;
+    max-height: 400px;
+    margin-bottom: 30px;
+}
+
+div.colorbox{
+    width: 32%;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size:22px;
+    display: inline-block;
+    margin: 1px;
+    margin-bottom: 30px;
+}
+
+
+
+/* -------- Start of color list boxes ----------*/
+
+
+
+div#coolblue{
+    background-color: #2d5dcc;
+    color: white;    
+}
+
+div#pink{
+    background-color: #d957d9;
+    color: black;    
+}
+
+div#mintgreen{
+    background-color: #4fe0b0;
+    color: black;    
+}
+
+div#beige{
+    background-color: #efd9ca;
+    color: black;    
+}
+
+div#crimson{
+    background-color: #DC143C;
+    color: white;    
+}
+
+div#orange{
+    background-color: #FFA500;
+    color: black;    
+}
+
+div#gold{
+    background-color: #FFD700;
+    color: black;    
+}
+
+div#lime{
+    background-color: #00FF00;
+    color: black;    
+}
+
+div#cyan{
+    background-color: #00FFFF;
+    color: black;    
+}
+
+div#magenta{
+    background-color: #FF00FF;
+    color: black;    
+}
+
+div#coolblue p a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+div#coolblue p a:visited{
+    color: white;
+    border: 1px solid white;
+}
+
+div#coolblue p a:hover{
+    background-color: white;
+    color: #2d5dcc;
+}
+
+div#coolblue p a:active{
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+    color: #2d5dcc;
+}
+
+
+/* -------- End of color list boxes ----------*/
+
+
+/* -------- Start of font div -----------*/
+
+.font-title{
+    text-align: center;
+    font-size: 29px;
+}
+
+div.font{
+    border: 2px solid black;
+}
+
+.font-container{
+    display: inline;
+}
+
+.label{
+    text-decoration: underline;
+    font-size: 26px;
+}
+
+.normal{
+    font-size:22px;
+}
+
+.bold{
+    font-size:22px;
+    font-weight: bold;
+}
+
+.italic{
+    font-size:22px;
+    font-style:italic;
+}
+
+div.font-container a{
+    font-size: 20px;
+}
+
+.source-code-pro{
+    font-family: 'Source Code Pro';
+}
+
+.times-new-roman{
+    font-family: "Times New Roman";
+}
+
+/* -------End of font div -------*/
